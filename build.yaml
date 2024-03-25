@@ -13,7 +13,13 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  # - board: nrfmicro_13
+  #   shield: cradio_left
+  # - board: nrfmicro_13
+  #   shield: cradio_right
+  - board: nice_nano_v2
     shield: cradio_left
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: cradio_right
+  - board: nice_nano_v2
+    shield: settings_reset
